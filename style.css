@@ -1,0 +1,56 @@
+/* მთლიანად ცენტრში აყენებს ყველაფერს */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #0b0b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ბარათის დიზაინი */
+.server-card {
+  background-color: #121212;
+  color: white;
+  padding: 40px 60px;
+  border-radius: 15px;
+  text-align: center; /* შიგნით ტექსტიც შუაში */
+  border: 3px solid #00bfff;
+  box-shadow: 0 0 25px rgba(0, 191, 255, 0.4);
+  width: 400px;
+}
+
+/* სათაური */
+.server-card h1 {
+  color: #00bfff;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00bfff;
+}
+
+/* ტექსტები */
+.server-card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Discord ღილაკი */
+.discord-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 25px;
+  background-color: #00bfff;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.discord-btn:hover {
+  background-color: #008ccc;
+  box-shadow: 0 0 20px #00bfff;
+  transform: scale(1.05);
+}
